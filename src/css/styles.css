@@ -17,17 +17,44 @@
 @import url('./footer.css');
 
 :root {
-  font-family: Kurb, Sansita, Montserrat, Inter;
+  --font-family: "Krub", sans-serif;
+  --second-family: "Sansita One", sans-serif;
+  --third-family: "Inter", sans-serif;
+  --font3: "Montserrat", sans-serif;
   font-size: 16px;
   line-height: 24px;
   font-weight: 400;
 
   color: #242424;
-  background-color: rgba(255, 255, 255, 0.87);
+  background-color: #140247;
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   -webkit-text-size-adjust: 100%;
+}
+
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+}
+
+.container {
+  margin: 0 auto;
+  padding: 0 20px;
+  min-width: 320px;
+  max-width: 375px;
+}
+
+@media screen and (min-width: 1440px) {
+  .container {
+    padding: 0 72px;
+    max-width: 1440px;
+  }
 }
