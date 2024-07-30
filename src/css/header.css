@@ -87,6 +87,7 @@
 
 .mobile-nav-list {
   margin: 0 auto;
+
 }
 
 .mobile-nav-link {
@@ -95,6 +96,10 @@
   line-height: 1.6;
   color: #ffd53f;
   text-align: center;
+}
+
+.mobile-nav-link:not(:last-child) {
+  margin-bottom: 32px;
 }
 
 .mobile-menu.is-open {

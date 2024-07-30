@@ -21,11 +21,11 @@
   --second-family: "Sansita One", sans-serif;
   --third-family: "Inter", sans-serif;
   --font3: "Montserrat", sans-serif;
-  font-size: 16px;
-  line-height: 24px;
-  font-weight: 400;
+  font-size: 28px;
+  line-height: 1.71;
+  font-weight: 500;
 
-  color: #242424;
+  color: #fff;
   background-color: #140247;
 
   font-synthesis: none;

@@ -1,0 +1,33 @@
+.hero {
+  background-image: url(../img/hero/bottomback.png);
+  background-repeat: no-repeat;
+  background-position: bottom;
+  background-size: 100%;
+  display: flex;
+}
+
+@media (-webkit-min-device-pixel-ratio: 2),
+(min-resolution: 2dppx) {
+  .hero {
+    background-image: url(../img/hero/bottomback@2x.png);
+    background-size: cover;
+  }
+}
+
+.hero-content {
+  display: flex;
+}
+
+.title {
+  font-family: var(--second-family);
+  color: #1ea8f9;
+  font-weight: 400;
+  font-size: 144px;
+  line-height: 1.11;
+}
+
+.splash {
+  color: #ffd53f;
+  text-align: right;
+
+}
