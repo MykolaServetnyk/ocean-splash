@@ -1,4 +1,24 @@
 /* Reset styles */
+* {
+  box-sizing: border-box;
+}
+
+html {
+  margin: 0 auto;
+}
+
+body {
+  margin: 0;
+  font-family: 'Inter', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
 h1,
 h2,
 h3,
@@ -25,7 +45,11 @@ a {
 }
 
 button {
+  padding: 0;
+  background-color: transparent;
   cursor: pointer;
+  border: none;
+  font-family: inherit;
 }
 
 img {
