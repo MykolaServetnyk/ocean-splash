@@ -1,33 +1,45 @@
-.hero {
-  background-image: url(../img/hero/bottomback.png);
-  background-repeat: no-repeat;
-  background-position: bottom;
-  background-size: 100%;
-  display: flex;
-}
-
-@media (-webkit-min-device-pixel-ratio: 2),
-(min-resolution: 2dppx) {
-  .hero {
-    background-image: url(../img/hero/bottomback@2x.png);
-    background-size: cover;
-  }
-}
-
-.hero-content {
-  display: flex;
-}
-
 .title {
-  font-family: var(--second-family);
+  font-family: "Sansita", sans-serif;
   color: #1ea8f9;
   font-weight: 400;
-  font-size: 144px;
-  line-height: 1.11;
+  font-size: 56px;
+  line-height: 1.29;
 }
 
 .splash {
   color: #ffd53f;
   text-align: right;
+
+}
+
+@media screen and (min-width: 1439px) {
+  .hero {
+    background-image: url(../img/hero/bottomback.png);
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: 100%;
+    display: flex;
+    z-index: 1;
+  }
+
+  @media (-webkit-min-device-pixel-ratio: 2),
+  (min-resolution: 2dppx) {
+    .hero {
+      background-image: url(../img/hero/bottomback@2x.png);
+      background-size: cover;
+    }
+  }
+
+  .hero-content {
+    display: flex;
+  }
+
+  .title {
+    font-family: "Sansita", sans-serif;
+    color: #1ea8f9;
+    font-weight: 400;
+    font-size: 144px;
+    line-height: 1.11;
+  }
 
 }

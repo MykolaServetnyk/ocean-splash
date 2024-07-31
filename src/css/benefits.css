@@ -1,17 +1,98 @@
 .benefits {
   display: flex;
   flex-direction: column;
-  align-items: center;
+  padding: 0 20px;
 }
 
-.text-content {}
-
-.bene-list {
+.bene-item-value {
   display: flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 285px;
+  min-height: 288px;
+  background-image: url(../img/benefits/shell@1x.png);
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  font-family: "Krub", sans-serif;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 1.33;
+  text-align: center;
+  color: #19193d;
+  box-sizing: border-box;
 }
 
-.bene-item {
-  background-image: url(../img/benefits/shell.png);
-  background-size: contain;
-  background-repeat: no-repeat;
+.bene-item-desc {
+  text-align: center;
+}
+
+@media screen and (min-width: 1439px) {
+  .text-content {
+    margin-bottom: 64px;
+  }
+
+  .bene-title {
+    font-family: "Sansita", sans-serif;
+    font-weight: 400;
+    font-size: 72px;
+    line-height: 1.22;
+    color: #48a7ff;
+  }
+
+  .bene-list {
+    display: flex;
+    justify-content: space-between;
+    gap: 24px;
+    width: 100%;
+    max-width: 100%;
+    padding: 0;
+    margin: 0;
+  }
+
+  .bene-item {
+    flex: 1 1 auto;
+    text-align: center;
+  }
+
+  .bene-item-value {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 306px;
+    height: 300px;
+    background-image: url(../img/benefits/shell@1x.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    font-family: "Krub", sans-serif;
+    font-weight: 700;
+    font-size: 72px;
+    line-height: 1.22;
+    text-align: center;
+    color: #19193d;
+    box-sizing: border-box;
+  }
+
+  @media (min-resolution: 2dppx) {
+    .bene-item-value {
+      background-image: url(../img/benefits/shell@2x.png);
+    }
+  }
+
+  .last-bene-value {
+    font-size: 48px;
+    line-height: 1.33;
+  }
+
+  .star {
+    width: 68px;
+    height: 68px;
+  }
+}
+
+.star {
+  fill: #19193d;
+  width: 64px;
+  height: 64px;
 }
