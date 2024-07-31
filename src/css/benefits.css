@@ -1,7 +1,24 @@
 .benefits {
   display: flex;
   flex-direction: column;
-  padding: 0 20px;
+  margin-bottom: 48px;
+}
+
+.bene-title {
+  margin-bottom: 24px;
+  font-family: "Sansita", sans-serif;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 1.5;
+  color: #48a7ff;
+}
+
+.bene-subtitle {
+  font-family: "Krub", sans-serif;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 1.78;
+  color: #fff;
 }
 
 .bene-item-value {
@@ -24,10 +41,18 @@
 }
 
 .bene-item-desc {
+  font-family: "Krub", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.78;
   text-align: center;
 }
 
 @media screen and (min-width: 1439px) {
+  .benefits {
+    margin-bottom: 184px;
+  }
+
   .text-content {
     margin-bottom: 64px;
   }
@@ -38,6 +63,7 @@
     font-size: 72px;
     line-height: 1.22;
     color: #48a7ff;
+    margin-bottom: 48px;
   }
 
   .bene-list {
@@ -83,6 +109,15 @@
   .last-bene-value {
     font-size: 48px;
     line-height: 1.33;
+  }
+
+  .bene-item-desc {
+    font-family: "Krub", sans-serif;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 200%;
+    text-align: center;
+    color: #fffafa;
   }
 
   .star {

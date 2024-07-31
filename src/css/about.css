@@ -1,0 +1,20 @@
+.about-text {
+  text-align: right;
+}
+
+.about-title {
+  font-family: "Sansita", sans-serif;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 1.5;
+  color: #48a7ff;
+}
+
+.about-subtitle {
+  font-family: "Krub", sans-serif;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 1.78;
+}
+
+@media screen and (min-width: 1439px) {}

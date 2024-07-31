@@ -1,3 +1,7 @@
+.hero {
+  margin-bottom: 48px;
+}
+
 .title {
   font-family: "Sansita", sans-serif;
   color: #1ea8f9;
@@ -13,6 +17,7 @@
 }
 
 @media screen and (min-width: 1439px) {
+
   .hero {
     background-image: url(../img/hero/bottomback.png);
     background-repeat: no-repeat;
@@ -20,6 +25,7 @@
     background-size: 100%;
     display: flex;
     z-index: 1;
+    margin-bottom: 184px;
   }
 
   @media (-webkit-min-device-pixel-ratio: 2),

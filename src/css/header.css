@@ -1,3 +1,7 @@
+.header {
+  padding-top: 32px;
+}
+
 .header-container {
   display: flex;
   align-items: center;
@@ -53,7 +57,12 @@
   z-index: 1000;
 }
 
-@media screen and (min-width: 1440px) {
+@media screen and (min-width: 1439px) {
+
+  .header {
+    padding-top: 24px;
+  }
+
   .mobile-menu__btn {
     display: none;
   }
