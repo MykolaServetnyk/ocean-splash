@@ -8,6 +8,7 @@
   font-size: 32px;
   line-height: 1.5;
   color: #48a7ff;
+  margin-bottom: 24px;
 }
 
 .about-subtitle {
@@ -17,4 +18,17 @@
   line-height: 1.78;
 }
 
-@media screen and (min-width: 1439px) {}
+@media screen and (min-width: 1439px) {
+  .about-title {
+    font-weight: 400;
+    font-size: 72px;
+    line-height: 1.22;
+    margin-bottom: 48px;
+  }
+
+  .about-subtitle {
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 1.71;
+  }
+}

@@ -66,6 +66,12 @@
     margin-bottom: 48px;
   }
 
+  .bene-subtitle {
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 1.71;
+  }
+
   .bene-list {
     display: flex;
     justify-content: space-between;
