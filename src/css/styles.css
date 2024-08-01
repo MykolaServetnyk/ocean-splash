@@ -17,10 +17,10 @@
 @import url('./footer.css');
 
 :root {
-  --font-family: "Krub", sans-serif;
-  --second-family: "Sansita One", sans-serif;
-  --third-family: "Inter", sans-serif;
-  --font3: "Montserrat", sans-serif;
+  --font-family: 'Krub', sans-serif;
+  --second-family: 'Sansita One', sans-serif;
+  --third-family: 'Inter', sans-serif;
+  --font3: 'Montserrat', sans-serif;
   font-size: 28px;
   line-height: 1.71;
   font-weight: 500;
@@ -35,7 +35,6 @@
   -webkit-text-size-adjust: 100%;
 }
 
-
 .visually-hidden {
   position: absolute;
   width: 1px;
@@ -43,6 +42,10 @@
   margin: -1px;
   border: 0;
   padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
 }
 
 .container {
@@ -54,7 +57,6 @@
 @media screen and (min-width: 320px) {
   .container {
     padding: 0 16px;
-
   }
 }
 
