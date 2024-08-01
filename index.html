@@ -16,17 +16,19 @@
       href="node_modules/modern-normalize/modern-normalize.css"
     />
     
-    <script type="module" crossorigin src="/ocean-splash/assets/main-71c7c90f.js"></script>
-    <link rel="stylesheet" href="/ocean-splash/assets/main-d266fe61.css">
+    <script type="module" crossorigin src="/ocean-splash/assets/main-d9bcdff9.js"></script>
+    <link rel="stylesheet" href="/ocean-splash/assets/main-55201587.css">
   </head>
   <body>
     <header id="header" class="header">
   <div class="container header-container">
     <a href="../index.html" class="header-logo">
       <img
+        class="logo"
         src="../img/header/logo-svg.svg"
         alt="Ocean splash logo"
         loading="lazy"
+        width="58px"
       />
     </a>
 
@@ -55,9 +57,10 @@
     <button class="mobile-menu__btn" type="button" data-menu-button>
       <svg
         class="mobile-menu__icon"
-        width="48px"
-        height="48px"
+        width="26px"
+        height="26px"
         aria-label="Mobile menu switcher"
+        fill="white"
       >
         <use class="mobile-menu__burger" href="../img/sprite.svg#burger"></use>
         <use class="mobile-menu__close" href="../img/sprite.svg#cross"></use>
@@ -68,18 +71,23 @@
 
     <main>
       <section class="hero" id="hero">
-  <div class="container">
+  <div class="container over">
     <div class="hero-content">
-      <div>
-        <h1 class="title">Ocean<br /><span class="splash">Splash</span></h1>
-        <a href="#" target="_blank">
-          <img
-            src="../img/hero/google-play.png"
-            alt="Google Play link to game"
-          />
-        </a>
-      </div>
-      <img src="../img/hero/mainpick@1x.png" alt="Main picture" />
+      <h1 class="title">Ocean<br /><span class="splash">Splash</span></h1>
+      <a href="#" target="_blank">
+        <img
+          class="google-link"
+          src="../img/hero/google-play.png"
+          alt="Google Play link to game"
+        />
+      </a>
+    </div>
+    <div>
+      <img
+        class="bottom-back"
+        src="../img/hero/bottomback.png"
+        alt="bottom background"
+      />
     </div>
   </div>
 </section>
