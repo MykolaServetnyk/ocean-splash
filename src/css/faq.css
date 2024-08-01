@@ -50,12 +50,12 @@
   justify-content: space-between;
   background: linear-gradient(180deg, #3c3ccd 0%, #1e1e67 100%);
   padding: 24px 69px 24px 175px;
-  transition: all 1500ms ease-in-out 1500ms;
+  transition: transform 150ms ease-in-out;
 }
 
 .faq-btn:hover,
 .faq-btn:focus {
-  background: linear-gradient(0deg, #3c3ccd 0%, #1e1e67 100%);
+  transform: scale(1.02);
 }
 
 .arrow-reverse {

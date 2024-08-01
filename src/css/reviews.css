@@ -1,0 +1,13 @@
+.section-reviews {
+  padding: 184px 72px 0;
+}
+
+.reviews-heading {
+  padding-left: 121px;
+  margin-bottom: 48px;
+  font-family: var(--second-family);
+  font-weight: 400;
+  font-size: 72px;
+  line-height: 122%;
+  color: #48a7ff;
+}

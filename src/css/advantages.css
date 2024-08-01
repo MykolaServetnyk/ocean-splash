@@ -6,6 +6,7 @@
 .advantages-heading {
   margin-left: 116.5px;
   margin-bottom: 48px;
+  font-family: var(--second-family);
   font-weight: 400;
   font-size: 72px;
   line-height: 122%;

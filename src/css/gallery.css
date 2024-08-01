@@ -1,0 +1,14 @@
+.section-gallery {
+  padding: 184px 72px 0;
+}
+
+.gallery-heading {
+  text-align: right;
+  padding-right: 111.5px;
+  margin-bottom: 48px;
+  font-family: var(--second-family);
+  font-weight: 400;
+  font-size: 72px;
+  line-height: 122%;
+  color: #48a7ff;
+}
