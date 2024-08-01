@@ -22,14 +22,7 @@
 
 }
 
-.bottom-back {
-  width: 100%;
-  position: absolute;
-  overflow: hidden;
-  bottom: 0;
-  left: 0;
-  z-index: -1;
-}
+.bottom-back {}
 
 @media screen and (min-width: 1439px) {
 
@@ -50,9 +43,8 @@
     font-size: 144px;
     line-height: 1.11;
     margin-top: 232px;
+    margin-bottom: 179px;
   }
 
-  .google-link {
-    display: block;
-  }
+  .google-link {}
 }
