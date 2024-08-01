@@ -10,12 +10,16 @@
   z-index: 10;
 }
 
+.logo {
+  width: 66px;
+}
+
 .nav {
   display: flex;
   margin-left: auto;
 }
 
-@media screen and (max-width: 1440px) {
+@media screen and (max-width: 1439px) {
   .nav {
     display: none;
   }
@@ -48,8 +52,6 @@
 .mobile-menu__btn {
   background-color: transparent;
   border: none;
-  width: 48px;
-  height: 48px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -61,6 +63,15 @@
 
   .header {
     padding-top: 24px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+  }
+
+  .logo {
+    width: 146px;
   }
 
   .mobile-menu__btn {
@@ -85,7 +96,6 @@
   top: 0;
   left: 0;
   width: 100vw;
-  height: 100vh;
   padding: 52px 0;
   background-color: #140247;
   display: flex;

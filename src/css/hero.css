@@ -1,5 +1,9 @@
 .hero {
+  height: 568px;
   margin-bottom: 48px;
+  background-image: url(../img/hero/mainscreen@mobile@1x.png);
+  background-size: 100%;
+  background-repeat: no-repeat;
 }
 
 .title {
@@ -8,6 +12,8 @@
   font-weight: 400;
   font-size: 56px;
   line-height: 1.29;
+  margin-bottom: 197px;
+
 }
 
 .splash {
@@ -16,29 +22,26 @@
 
 }
 
+.bottom-back {
+  width: 100%;
+  position: absolute;
+  overflow: hidden;
+  bottom: 0;
+  left: 0;
+  z-index: -1;
+}
+
 @media screen and (min-width: 1439px) {
 
   .hero {
-    background-image: url(../img/hero/bottomback.png);
-    background-repeat: no-repeat;
-    background-position: bottom;
-    background-size: 100%;
-    display: flex;
-    z-index: 1;
     margin-bottom: 184px;
+    background-image: url(../img/hero/mainscreen1x.png);
+    background-size: 100%;
+    position: relative;
   }
 
-  @media (-webkit-min-device-pixel-ratio: 2),
-  (min-resolution: 2dppx) {
-    .hero {
-      background-image: url(../img/hero/bottomback@2x.png);
-      background-size: cover;
-    }
-  }
 
-  .hero-content {
-    display: flex;
-  }
+  .hero-content {}
 
   .title {
     font-family: "Sansita", sans-serif;
@@ -46,6 +49,10 @@
     font-weight: 400;
     font-size: 144px;
     line-height: 1.11;
+    margin-top: 232px;
   }
 
+  .google-link {
+    display: block;
+  }
 }
