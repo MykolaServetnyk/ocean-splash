@@ -16,9 +16,14 @@
 @import url('./disclaimer.css');
 @import url('./footer.css');
 
+@font-face {
+  font-family: 'SansitaOne';
+  src: url(../../fontSansita/SansitaOne.ttf) format('truetype');
+}
+
 :root {
   --font-family: 'Krub', sans-serif;
-  --second-family: 'Sansita', sans-serif;
+  --second-family: 'SansitaOne', sans-serif;
   --third-family: 'Inter', sans-serif;
   --font3: 'Montserrat', sans-serif;
   font-size: 28px;
