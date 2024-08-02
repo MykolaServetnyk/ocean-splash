@@ -2,7 +2,27 @@
   <div class="container hero-container">
     <div class="hero-content">
       <h1 class="title">Ocean<br /><span class="splash">Splash</span></h1>
-      <img class="main-back" src="/img/hero/mainscreen@mobile@1x.png" alt="" />
+      <picture>
+        <source
+          srcset="
+            /img/hero/mainscreen@mobile@2x.png 2x,
+            /img/hero/mainscreen@mobile@1x.png 1x
+          "
+          media="(max-width: 1439px)"
+        />
+        <source
+          srcset="
+            /img/hero/mainscreen@2x.png 2x,
+            /img/hero/mainscreen@1x.png 1x
+          "
+          media="(min-width: 1440px)"
+        />
+        <img
+          class="main-back"
+          src="/img/hero/mainscreen@mobile@1x.png"
+          alt=""
+        />
+      </picture>
     </div>
 
     <button class="google-link-btn" type="button">
