@@ -1,54 +1,91 @@
-.advantages-container {
-  padding: 184px 72px 0;
-  width: 100%;
+#advantages {
+  padding-top: 48px;
 }
 
 .advantages-heading {
-  margin-left: 116.5px;
-  margin-bottom: 48px;
+  margin-bottom: 24px;
   font-family: var(--second-family);
   font-weight: 400;
-  font-size: 72px;
-  line-height: 122%;
+  font-size: 32px;
+  line-height: 150%;
   color: #48a7ff;
 }
 
 .advantages-list {
-  width: 100%;
   display: flex;
+  flex-direction: column;
   gap: 24px;
-  flex-wrap: wrap;
 }
 
 .advantages-item {
   display: flex;
   flex-direction: column;
   align-items: center;
-  height: 313px;
-  /* width: calc((100% / 3) - 48px); */
-  width: 416px;
+  height: 218px;
+  width: 100%;
   border: 4px solid #d088ee;
   border-radius: 32px;
-  padding: 73px 54px;
+  padding: 48px 25px 0;
 }
 
 .advantages-list .advantages-item:nth-child(1),
 .advantages-list .advantages-item:nth-child(2) {
-  padding: 73px 85px;
+  padding: 48px 39px 0 38px;
 }
 
 .advantage-title {
   text-align: center;
-  font-weight: 600;
-  font-size: 28px;
-  line-height: 143%;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 160%;
   color: #ffd53f;
 }
 
 .advantage-text {
   text-align: center;
   font-weight: 500;
-  font-size: 24px;
-  line-height: 143%;
+  font-size: 18px;
+  line-height: 178%;
   color: #ffffff;
+}
+
+@media screen and (min-width: 1440px) {
+  #advantages {
+    padding-top: 184px;
+  }
+
+  .advantages-heading {
+    margin-left: 116.5px;
+    margin-bottom: 48px;
+    font-size: 72px;
+    line-height: 122%;
+  }
+
+  .advantages-list {
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
+  .advantages-item {
+    flex-grow: 1;
+    height: 313px;
+    width: calc((100% / 3) - 48px);
+    padding: 73px 54px;
+  }
+
+  .advantages-list .advantages-item:nth-child(1),
+  .advantages-list .advantages-item:nth-child(2) {
+    padding: 73px 85px;
+  }
+
+  .advantage-title {
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 143%;
+  }
+
+  .advantage-text {
+    font-size: 24px;
+    line-height: 143%;
+  }
 }

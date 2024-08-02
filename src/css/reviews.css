@@ -1,5 +1,5 @@
-.section-reviews {
-  padding-top: 24px;
+#reviews {
+  padding-top: 48px;
 }
 
 .reviews-heading {
@@ -71,7 +71,7 @@
 }
 
 @media screen and (min-width: 1440px) {
-  .section-reviews {
+  #reviews {
     padding-top: 184px;
   }
 
@@ -83,11 +83,13 @@
   }
 
   .reviews-list {
+    flex-direction: row;
     flex-wrap: wrap;
     gap: 8px 24px;
   }
 
   .reviews-list-item {
+    flex-grow: 1;
     height: 453px;
     width: calc((100% / 3) - 48px);
     padding: 135px 83px 0;

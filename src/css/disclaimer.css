@@ -1,23 +1,19 @@
-.section-disclaimer {
-  padding: 184px 182px 0;
-}
-
 .disclaimer-heading {
-  margin-bottom: 48px;
+  margin-bottom: 24px;
   font-family: var(--second-family);
   font-weight: 400;
-  font-size: 72px;
-  line-height: 122%;
+  font-size: 32px;
+  line-height: 150%;
   color: #48a7ff;
 }
 
 .disclaimer-text {
-  font-size: 28px;
-  line-height: 171%;
-  text-align: center;
+  font-size: 18px;
+  line-height: 178%;
+  text-align: left;
   font-weight: 500;
   color: #ffffff;
-  margin-bottom: 104px;
+  margin-bottom: 32px;
 }
 
 .disclaimer-site {
@@ -33,12 +29,49 @@
 
 .google-play-link {
   border-radius: 8px;
-  width: 304px;
-  height: 72px;
+  width: 210px;
+  height: 51px;
   transition: all 150ms ease-in-out 150ms;
 }
 
 .google-play-link:hover,
 .google-play-link:focus {
   box-shadow: 0 0 16px 0 #67edff;
+}
+
+@media screen and (min-width: 1440px) {
+  #disclaimer {
+    padding-left: 182px;
+    padding-right: 182px;
+    background-repeat: no-repeat;
+    /* background-size: cover; */
+    background-position: left top;
+    background-image: url(../img/disclaimer/corals.png);
+  }
+
+  @media (min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+    .reviews-list-item {
+      background-image: url(../img/disclaimer/corals-2x.png);
+    }
+  }
+
+  .disclaimer-heading {
+    margin-bottom: 48px;
+    font-size: 72px;
+    line-height: 122%;
+  }
+
+  .disclaimer-text {
+    font-size: 28px;
+    line-height: 171%;
+    margin-bottom: 104px;
+    text-align: center;
+  }
+
+  .google-play-link {
+    width: 304px;
+    height: 72px;
+  }
 }

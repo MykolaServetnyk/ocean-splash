@@ -1,14 +1,28 @@
-.section-gallery {
-  padding: 184px 72px 0;
+#gallery {
+  padding-top: 48px;
+  padding-bottom: 109px;
 }
 
 .gallery-heading {
   text-align: right;
-  padding-right: 111.5px;
-  margin-bottom: 48px;
+  margin-bottom: 24px;
   font-family: var(--second-family);
   font-weight: 400;
-  font-size: 72px;
-  line-height: 122%;
+  font-size: 32px;
+  line-height: 150%;
   color: #48a7ff;
+}
+
+@media screen and (min-width: 1440px) {
+  #gallery {
+    padding-top: 184px;
+    padding-bottom: 184px;
+  }
+
+  .gallery-heading {
+    padding-right: 111.5px;
+    margin-bottom: 48px;
+    font-size: 72px;
+    line-height: 122%;
+  }
 }
