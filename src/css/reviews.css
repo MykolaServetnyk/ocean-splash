@@ -1,13 +1,128 @@
 .section-reviews {
-  padding: 184px 72px 0;
+  padding-top: 24px;
 }
 
 .reviews-heading {
-  padding-left: 121px;
-  margin-bottom: 48px;
+  margin-bottom: 24px;
   font-family: var(--second-family);
   font-weight: 400;
-  font-size: 72px;
-  line-height: 122%;
+  font-size: 32px;
+  line-height: 150%;
   color: #48a7ff;
 }
+
+.reviews-list {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.reviews-list-item {
+  height: 312px;
+  width: 100%;
+  padding: 99px 51px 0;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-image: url(../img/reviews/shell-mob.png);
+}
+
+.reviews-list-item:nth-child(even) {
+  padding: 109px 70px 0;
+  background-image: url(../img/reviews/jelly-mob.png);
+}
+
+@media (min-device-pixel-ratio: 2),
+  (min-resolution: 192dpi),
+  (min-resolution: 2dppx) {
+  .reviews-list-item {
+    background-image: url(../img/reviews/shell-mob-2x.png);
+  }
+
+  .reviews-list-item:nth-child(even) {
+    background-image: url(../img/reviews/jelly-mob-2x.png);
+  }
+}
+
+.review-title {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 160%;
+  text-align: center;
+  color: #46d0ff;
+  margin-bottom: 4px;
+}
+
+.review-text {
+  font-style: italic;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 171%;
+  text-align: center;
+  color: #ffffff;
+}
+
+.reviews-list-item:nth-child(even) .review-title {
+  color: #7d02a8;
+}
+
+.reviews-list-item:nth-child(even) .review-text {
+  color: #19193d;
+}
+
+@media screen and (min-width: 1440px) {
+  .section-reviews {
+    padding-top: 184px;
+  }
+
+  .reviews-heading {
+    padding-left: 121px;
+    margin-bottom: 48px;
+    font-size: 72px;
+    line-height: 122%;
+  }
+
+  .reviews-list {
+    flex-wrap: wrap;
+    gap: 8px 24px;
+  }
+
+  .reviews-list-item {
+    height: 453px;
+    width: calc((100% / 3) - 48px);
+    padding: 135px 83px 0;
+    background-image: url(../img/reviews/shell-desktop.png);
+  }
+
+  .reviews-list-item:nth-child(even) {
+    padding: 135px 73px 0 92px;
+    background-image: url(../img/reviews/jelly-desktop.png);
+  }
+
+  @media (min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+    .reviews-list-item {
+      background-image: url(../img/reviews/shell-desktop-2x.png);
+    }
+
+    .reviews-list-item:nth-child(even) {
+      background-image: url(../img/reviews/jelly-desktop-2x.png);
+    }
+  }
+
+  .review-title {
+    font-size: 32px;
+    line-height: 150%;
+  }
+
+  .review-text {
+    font-size: 24px;
+    line-height: 133%;
+  }
+}
+
+/* @media screen and (min-width: 375px) {
+}
+
+@media screen and (min-width: 1440px) {} */
