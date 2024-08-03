@@ -1,12 +1,12 @@
-import Swiper, { Navigation, Pagination } from 'swiper';
+// import Swiper, { Navigation, Pagination } from 'swiper';
 
-(() => {
-  const swiper = new Swiper('.swiper-container', {
-    modules: [Navigation, Pagination],
-    navigation: {
-      nextEl: '.swiper-button-next',
-      prevEl: '.swiper-button-prev',
-    },
-    loop: true,
-  });
-})();
+// (() => {
+//   const swiper = new Swiper('.swiper-container', {
+//     modules: [Navigation, Pagination],
+//     navigation: {
+//       nextEl: '.swiper-button-next',
+//       prevEl: '.swiper-button-prev',
+//     },
+//     loop: true,
+//   });
+// })();
