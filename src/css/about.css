@@ -1,9 +1,14 @@
+#about {
+  position: relative;
+  padding-bottom: 83px;
+}
+
 .about-text {
   text-align: right;
 }
 
 .about-title {
-  font-family: "SansitaOne", sans-serif;
+  font-family: 'SansitaOne', sans-serif;
   font-weight: 400;
   font-size: 32px;
   line-height: 1.5;
@@ -12,13 +17,37 @@
 }
 
 .about-subtitle {
-  font-family: "Krub", sans-serif;
+  font-family: 'Krub', sans-serif;
   font-weight: 500;
   font-size: 18px;
   line-height: 1.78;
 }
 
+.bottom-back {
+  position: absolute;
+  top: calc(100% - 83px);
+  left: 0;
+  height: 83px;
+  width: 100vw;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-image: url(../img/about/bottom-about-mob.png);
+}
+
+@media (min-device-pixel-ratio: 2),
+  (min-resolution: 192dpi),
+  (min-resolution: 2dppx) {
+  .bottom-back {
+    background-image: url(../img/about/bottom-about-mob-2x.png);
+  }
+}
+
 @media screen and (min-width: 1440px) {
+  #about {
+    padding-bottom: 467px;
+  }
+
   .about-title {
     font-weight: 400;
     font-size: 72px;
@@ -30,5 +59,20 @@
     font-weight: 500;
     font-size: 28px;
     line-height: 1.71;
+  }
+
+  .bottom-back {
+    height: 392px;
+    width: 100vw;
+    top: calc(100% - 392px);
+    background-image: url(../img/about/bottom-about-desktop.png);
+  }
+
+  @media (min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+    .bottom-back {
+      background-image: url(../img/about/bottom-about-desktop-2x.png);
+    }
   }
 }
