@@ -3,6 +3,7 @@
   padding-bottom: 109px;
 }
 
+
 .gallery-heading {
   text-align: right;
   margin-bottom: 24px;
@@ -17,6 +18,12 @@
   width: 100%;
   height: 100%;
 }
+
+.gallery-items {
+  padding: 0 55px;
+}
+
+
 
 .swiper-slide {
   text-align: center;
