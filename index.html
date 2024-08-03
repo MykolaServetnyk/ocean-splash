@@ -15,9 +15,13 @@
       rel="stylesheet"
       href="node_modules/modern-normalize/modern-normalize.css"
     />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
     
-    <script type="module" crossorigin src="/ocean-splash/assets/main-6be3638a.js"></script>
-    <link rel="stylesheet" href="/ocean-splash/assets/main-9c0dfd54.css">
+    <script type="module" crossorigin src="/ocean-splash/assets/main-fc66cb85.js"></script>
+    <link rel="stylesheet" href="/ocean-splash/assets/main-f25a37a4.css">
   </head>
   <body>
     <header id="header" class="header">
@@ -35,7 +39,7 @@
     <nav class="nav">
       <ul class="nav-list">
         <li class="nav-link"><a href="../index.html">Home</a></li>
-        <li class="nav-link"><a href="../index.html/benefits">Benefits</a></li>
+        <li class="nav-link"><a href="../index.html#benefits">Benefits</a></li>
         <li class="nav-link">
           <a href="../index.html#about">About the game</a>
         </li>
@@ -88,19 +92,11 @@
   <div class="container hero-container">
     <div class="hero-content">
       <h1 class="title">Ocean<br /><span class="splash">Splash</span></h1>
-      <img class="main-back" src="/ocean-splash/assets/mainscreen1x-295025a8.png" alt="" />
     </div>
+    <img class="main-back" src="/ocean-splash/assets/mainscreen1x-295025a8.png" alt="" />
     <a class="google-link" href="#" target="_blank">
       <img src="/ocean-splash/assets/google-play-a7621991.png" alt="Google Play link to game" />
     </a>
-  </div>
-  <div>
-    <img
-      class="bottom-back"
-      src="/ocean-splash/assets/bottomback-4d67fac4.png"
-      alt="bottom background"
-      width="100%"
-    />
   </div>
 </section>
 
@@ -153,6 +149,7 @@
       packed with special power-ups and hidden treasures.
     </p>
   </div>
+  <div class="bottom-back"></div>
 </section>
 
       <section class="container" id="advantages">
@@ -347,6 +344,30 @@
 
       <section class="container" id="gallery">
   <h2 class="gallery-heading">Gallery</h2>
+  <div class="swiper">
+    <div class="swiper-wrapper gallery-items">
+      <div class="swiper-slide">
+        <img src="../img/gallery/gallery-1.jpg" alt="Help Them!" />
+      </div>
+      <div class="swiper-slide">
+        <img src="../img/gallery/gallery-2.jpg" alt="Ocean Splash" />
+      </div>
+      <div class="swiper-slide">
+        <img src="../img/gallery/gallery-3.jpg" alt="Unlock Stage" />
+      </div>
+      <div class="swiper-slide">
+        <img src="../img/gallery/gallery-4.jpg" alt="Hidden Treats" />
+      </div>
+      <div class="swiper-slide">
+        <img src="../img/gallery/gallery-5.jpg" alt="Match!" />
+      </div>
+      <div class="swiper-slide">
+        <img src="../img/gallery/gallery-6.jpg" alt="Fun & Easy" />
+      </div>
+    </div>
+    <div class="swiper-button-prev"></div>
+    <div class="swiper-button-next"></div>
+  </div>
 </section>
 
       <section class="container" id="disclaimer">
@@ -371,10 +392,11 @@
       />
     </a>
   </div>
+  <div class="corals"></div>
 </section>
 
     </main>
-    <section class="section-footer">
+    <section class="footer">
   <div class="footer-content">
     <p class="footer-text">All rights reserved gamewinportal.com | 2024</p>
     <nav class="footer-nav">
@@ -383,7 +405,6 @@
           <a
             class="footer-link"
             href="/ocean-splash/privacy-policy.html"
-            role="link"
             rel="noopener norefferer"
           >
             Privacy policy
@@ -393,7 +414,6 @@
           <a
             class="footer-link"
             href="/ocean-splash/terms-and-conditions.html"
-            role="link"
             rel="noopener norefferer"
           >
             Terms and conditions
@@ -402,8 +422,10 @@
       </ul>
     </nav>
   </div>
+  <div class="seabottom"></div>
 </section>
 
     
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
   </body>
 </html>
