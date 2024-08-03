@@ -71,9 +71,4 @@
     width: 154px;
   }
 
-  .bottom-back {
-    margin-left: -16px;
-    z-index: -10;
-    width: 100%;
-  }
 }
