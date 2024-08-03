@@ -88,4 +88,36 @@
     width: 304px;
     height: 72px;
   }
+
+  .gallery-transparent-bubble-first {
+    top: -7px;
+    left: 79px;
+    width: 85px;
+    height: 85px;
+    background-image: url(../img/bubbles/bubble-transparent-single.png);
+  }
+
+  .gallery-transparent-bubble-second {
+    top: 84px;
+    left: 50px;
+    width: 29px;
+    height: 29px;
+    background-image: url(../img/bubbles/bubble-transparent-single.png);
+  }
+
+  .gallery-transparent-bubble-third {
+    top: 84px;
+    left: 50px;
+    width: 29px;
+    height: 29px;
+    background-image: url(../img/bubbles/bubble-transparent-single.png);
+  }
+
+  .gallery-foam-bubble-first {
+    top: 116px;
+    left: 107px;
+    width: 171px;
+    height: 166px;
+    background-image: url(../img/bubbles/bubble-foam-single.png);
+  }
 }

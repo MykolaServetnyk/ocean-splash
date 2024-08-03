@@ -3,6 +3,13 @@
   padding-bottom: 83px;
 }
 
+.about-bubble {
+  position: absolute;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
 .about-text {
   text-align: right;
 }
@@ -46,6 +53,8 @@
 @media screen and (min-width: 1440px) {
   #about {
     padding-bottom: 467px;
+    padding-left: 182px;
+    padding-right: 182px;
   }
 
   .about-title {
@@ -74,5 +83,54 @@
     .bottom-back {
       background-image: url(../img/about/bottom-about-desktop-2x.png);
     }
+  }
+
+  .about-transparent-bubble-first {
+    top: 292px;
+    right: 18px;
+    width: 86px;
+    height: 86px;
+    background-image: url(../img/bubbles/bubble-transparent-single.png);
+  }
+
+  .about-transparent-bubble-second {
+    z-index: -10;
+    top: 351px;
+    right: 67px;
+    width: 54px;
+    height: 54px;
+    background-image: url(../img/bubbles/bubble-transparent-single.png);
+  }
+
+  .about-transparent-bubble-third {
+    top: 461px;
+    right: 104px;
+    width: 37px;
+    height: 37px;
+    background-image: url(../img/bubbles/bubble-transparent-single.png);
+  }
+
+  .about-foam-bubble-first {
+    top: 473px;
+    left: 171px;
+    width: 171px;
+    height: 166px;
+    background-image: url(../img/bubbles/bubble-foam-single.png);
+  }
+
+  .about-foam-bubble-second {
+    top: 613px;
+    left: 146px;
+    width: 83px;
+    height: 81px;
+    background-image: url(../img/bubbles/bubble-foam-single.png);
+  }
+
+  .about-foam-bubble-third {
+    top: 692px;
+    left: 190px;
+    width: 57px;
+    height: 56px;
+    background-image: url(../img/bubbles/bubble-foam-single.png);
   }
 }
