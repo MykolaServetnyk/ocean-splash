@@ -1,28 +1,25 @@
-.section-footer {
-  padding-top: 184px;
+.footer {
+  position: relative;
 }
 
 .footer-content {
+  height: 120px;
   position: relative;
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
-  gap: 70px;
-  padding: 32px 97px;
+  padding: 18px 12px 0;
   background-color: rgba(4, 10, 60, 0.45);
 }
 
 .footer-text {
   font-weight: 600;
-  font-size: 24px;
-  line-height: 167%;
+  font-size: 12px;
+  line-height: 320%;
 }
 
 .footer-nav {
-  position: absolute;
-  top: 0;
-  right: 97px;
-  height: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -36,8 +33,8 @@
 .footer-nav-item::after {
   content: '/';
   font-weight: 600;
-  font-size: 16px;
-  line-height: 200%;
+  font-size: 10px;
+  line-height: 320%;
   margin-left: 2.5px;
 }
 
@@ -47,6 +44,74 @@
 
 .footer-link {
   font-weight: 600;
-  font-size: 16px;
-  line-height: 200%;
+  font-size: 10px;
+  line-height: 320%;
+}
+
+.seabottom {
+  position: absolute;
+  z-index: -10;
+  bottom: 0;
+  left: 0;
+  height: 120px;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: left top;
+  background-image: url(../img/footer/seabottom-mob.png);
+}
+
+@media (min-device-pixel-ratio: 2),
+  (min-resolution: 192dpi),
+  (min-resolution: 2dppx) {
+  .seabottom {
+    background-image: url(../img/footer/seabottom-mob-2x.png);
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .footer-content {
+    height: 109px;
+    padding: 32px 97px;
+  }
+
+  .footer-text {
+    font-size: 24px;
+    line-height: 167%;
+  }
+
+  .footer-nav {
+    position: absolute;
+    top: 0;
+    right: 97px;
+    height: 100%;
+  }
+
+  .footer-nav-list {
+    display: flex;
+    gap: 5px;
+  }
+
+  .footer-nav-item::after {
+    font-size: 16px;
+    line-height: 200%;
+  }
+
+  .footer-link {
+    font-size: 16px;
+    line-height: 200%;
+  }
+
+  .seabottom {
+    height: 300px;
+    background-image: url(../img/footer/seabottom-desktop.png);
+  }
+
+  @media (min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+    .seabottom {
+      background-image: url(../img/footer/seabottom-desktop-2x.png);
+    }
+  }
 }
