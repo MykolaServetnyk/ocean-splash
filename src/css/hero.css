@@ -53,6 +53,7 @@
   background-size: cover;
   background-position: center;
   background-image: url(../img/hero/mainscreen1x.png);
+  overflow: hidden;
 }
 
 .bottom-hero {
