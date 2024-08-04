@@ -18,7 +18,91 @@
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
-    <load ="partials/header.html" />
+    <header id="header" class="header">
+      <div class="container header-container">
+        <a href="/ocean-splash/index.html" class="header-logo">
+          <img
+            class="logo"
+            src="/img/header/logo-svg.svg"
+            alt="Ocean splash logo"
+            loading="lazy"
+            width="58px"
+          />
+        </a>
+
+        <nav class="nav">
+          <ul class="nav-list">
+            <li class="nav-link">
+              <a href="/ocean-splash/index.html">Home</a>
+            </li>
+            <li class="nav-link">
+              <a href="/ocean-splash/index.html#benefits">Benefits</a>
+            </li>
+            <li class="nav-link">
+              <a href="/ocean-splash/index.html#about">About the game</a>
+            </li>
+            <li class="nav-link">
+              <a href="/ocean-splash/index.html#advantages">Advantages</a>
+            </li>
+            <li class="nav-link">
+              <a href="/ocean-splash/index.html#faq">FAQ</a>
+            </li>
+            <li class="nav-link">
+              <a href="/ocean-splash/index.html#reviews">Reviews</a>
+            </li>
+            <li class="nav-link">
+              <a href="/ocean-splash/index.html#gallery">Gallery</a>
+            </li>
+          </ul>
+        </nav>
+        <div class="mobile-menu" data-menu>
+          <ul class="mobile-nav-list">
+            <li class="mobile-nav-link">
+              <a href="/ocean-splash/index.html">Home</a>
+            </li>
+            <li class="mobile-nav-link">
+              <a href="/ocean-splash/index.html#benefits">Benefits</a>
+            </li>
+            <li class="mobile-nav-link">
+              <a href="/ocean-splash/index.html#about">About the game</a>
+            </li>
+            <li class="mobile-nav-link">
+              <a href="/ocean-splash/index.html#advantages">Advantages</a>
+            </li>
+            <li class="mobile-nav-link">
+              <a href="/ocean-splash/index.html#faq">FAQ</a>
+            </li>
+            <li class="mobile-nav-link">
+              <a href="/ocean-splash/index.html#reviews">Reviews</a>
+            </li>
+            <li class="mobile-nav-link">
+              <a href="/ocean-splash/index.html#gallery">Gallery</a>
+            </li>
+          </ul>
+        </div>
+        <button
+          class="mobile-menu__btn"
+          type="button"
+          data-menu-button
+          aria-expanded="false"
+          aria-controls="mobile-menu"
+        >
+          <svg
+            class="mobile-menu__icon"
+            width="26px"
+            height="26px"
+            aria-label="Mobile menu switcher"
+            fill="white"
+          >
+            <use
+              class="mobile-menu__burger"
+              href="/img/sprite.svg#burger"
+            ></use>
+            <use class="mobile-menu__close" href="/img/sprite.svg#cross"></use>
+          </svg>
+        </button>
+      </div>
+    </header>
     <main>
       <load ="partials/terms-main.html" />
     </main>
