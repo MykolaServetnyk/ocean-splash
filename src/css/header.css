@@ -1,11 +1,7 @@
 .header {
   padding-top: 32px;
-  position: absolute;
-  top: 0;
-  left: 0;
   z-index: 1000;
   width: 100%;
-
 }
 
 .header-container {
@@ -66,12 +62,8 @@
 }
 
 @media screen and (min-width: 1440px) {
-
   .header {
     padding-top: 24px;
-    position: absolute;
-    top: 0;
-    left: 0;
     width: 100%;
     z-index: 1000;
   }

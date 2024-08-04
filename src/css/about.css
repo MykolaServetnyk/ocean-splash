@@ -3,13 +3,6 @@
   padding-bottom: 83px;
 }
 
-.about-bubble {
-  position: absolute;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-}
-
 .about-text {
   text-align: right;
 }
@@ -48,6 +41,48 @@
   .bottom-back {
     background-image: url(../img/about/bottom-about-mob-2x.png);
   }
+}
+
+.about-foam-bubble-first {
+  top: 80px;
+  left: 5px;
+  width: 32px;
+  height: 31px;
+}
+
+.about-foam-bubble-second {
+  top: 105px;
+  left: 16px;
+  width: 20px;
+  height: 20px;
+}
+
+.about-foam-bubble-third {
+  top: 430px;
+  left: 61px;
+  width: 32px;
+  height: 31px;
+}
+
+.about-foam-bubble-fourth {
+  bottom: 62px;
+  left: 55px;
+  width: 22px;
+  height: 21px;
+}
+
+.about-foam-bubble-fifth {
+  bottom: 43px;
+  left: 71px;
+  width: 15px;
+  height: 15px;
+}
+
+.about-foam-bubble-sixth {
+  bottom: 28px;
+  left: 69px;
+  width: 8px;
+  height: 8px;
 }
 
 @media screen and (min-width: 1440px) {
@@ -90,7 +125,6 @@
     right: 18px;
     width: 86px;
     height: 86px;
-    background-image: url(../img/bubbles/bubble-transparent-single.png);
   }
 
   .about-transparent-bubble-second {
@@ -99,7 +133,6 @@
     right: 67px;
     width: 54px;
     height: 54px;
-    background-image: url(../img/bubbles/bubble-transparent-single.png);
   }
 
   .about-transparent-bubble-third {
@@ -107,7 +140,6 @@
     right: 104px;
     width: 37px;
     height: 37px;
-    background-image: url(../img/bubbles/bubble-transparent-single.png);
   }
 
   .about-foam-bubble-first {
@@ -115,7 +147,6 @@
     left: 171px;
     width: 171px;
     height: 166px;
-    background-image: url(../img/bubbles/bubble-foam-single.png);
   }
 
   .about-foam-bubble-second {
@@ -123,7 +154,6 @@
     left: 146px;
     width: 83px;
     height: 81px;
-    background-image: url(../img/bubbles/bubble-foam-single.png);
   }
 
   .about-foam-bubble-third {
@@ -131,6 +161,11 @@
     left: 190px;
     width: 57px;
     height: 56px;
-    background-image: url(../img/bubbles/bubble-foam-single.png);
+  }
+
+  .about-foam-bubble-fourth,
+  .about-foam-bubble-fifth,
+  .about-foam-bubble-seventh {
+    display: none;
   }
 }

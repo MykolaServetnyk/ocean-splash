@@ -1,25 +1,22 @@
-.hero {
-  padding-bottom: 300px;
-}
-
-.hero-content {
-  margin-top: 231px;
-  margin-bottom: 179px;
+#hero {
+  padding: 20px 16px 90px 16px;
+  position: relative;
 }
 
 .title {
+  padding-left: 3px;
   font-family: 'SansitaOne', sans-serif;
   font-weight: 400;
-  font-size: 144px;
-  line-height: 1.11;
+  font-size: 56px;
+  line-height: 129%;
+  margin-bottom: 197px;
   color: #1ea8f9;
 }
 
 .splash {
   display: block;
-  margin-right: 657px;
+  padding-left: 44px;
   color: #ffd53f;
-  text-align: right;
 }
 
 .title,
@@ -28,47 +25,105 @@
     2px 2px 0 #fff;
 }
 
-.main-back {
-  position: absolute;
-  top: -100px;
-  left: 50px;
-  z-index: -20;
+.google-play-img {
+  border-radius: 8px;
+  width: 154px;
+  height: 43px;
+  border: 3px solid #1ea8f9;
 }
 
-.google-link {
-  display: block;
-  position: absolute;
+.google-play-link {
+  transition: all 150ms ease-in-out 150ms;
 }
 
-@media screen and (max-width: 1439px) and (min-width: 320px) {
-  .hero {
-    padding: 0 16px 100px 16px;
+.google-play-link:hover,
+.google-play-link:focus {
+  box-shadow: 0 0 16px 0 #67edff;
+}
+
+.main-screen {
+  z-index: -1;
+  position: absolute;
+  top: 80px;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-image: url(../img/hero/mainscreen1x.png);
+}
+
+.bottom-hero {
+  z-index: -2;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 95px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-image: url(../img/hero/bottom-hero-mob.png);
+}
+
+@media (min-device-pixel-ratio: 2),
+  (min-resolution: 192dpi),
+  (min-resolution: 2dppx) {
+  .bottom-hero {
+    background-image: url(../img/hero/bottom-hero-mob-2x.png);
   }
+}
 
-  .hero-content {
-    margin-top: 108px;
-    margin-bottom: 0px;
+@media screen and (min-width: 1440px) {
+  #hero {
+    padding: 88px 72px 186px 72px;
   }
 
   .title {
-    font-size: 56px;
-    line-height: 1.29;
+    padding-left: 0;
+    margin-bottom: 102px;
+    font-size: 144px;
+    line-height: 111%;
   }
 
-  .title,
+  .splash {
+    padding-left: 180px;
+  }
+
+  /* .title,
   .splash {
     text-shadow: -1px -2px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff,
       1px 1px 0 #fff;
+  } */
+
+  .google-play-img {
+    width: 304px;
+    height: 72px;
+    border: none;
   }
 
-  .main-back {
-    position: static;
+  .main-screen {
+    top: -104px;
+    left: 30px;
+    width: 1693px;
+    height: 1220px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    background-image: url(../img/hero/mainscreen1x.png);
   }
 
-  .google-link {
-    display: block;
-    position: relative;
-    width: 154px;
+  .bottom-hero {
+    height: 288px;
+    background-image: url(../img/hero/bottom-hero-desktop.png);
   }
 
+  @media (min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+    .bottom-hero {
+      background-image: url(../img/hero/bottom-hero-desktop-2x.png);
+    }
+  }
 }
