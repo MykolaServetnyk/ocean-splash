@@ -11,6 +11,7 @@
   line-height: 129%;
   margin-bottom: 197px;
   color: #1ea8f9;
+  display: inline-block;
 }
 
 .splash {
@@ -21,8 +22,8 @@
 
 .title,
 .splash {
-  text-shadow: -2px -2px 0 #fff, 2px -2px 0 #fff, -2px 2px 0 #fff,
-    2px 2px 0 #fff;
+  text-shadow: -1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff,
+    1px 1px 0 #fff;
 }
 
 .google-play-img {
@@ -42,7 +43,7 @@
 }
 
 .main-screen {
-  z-index: -1;
+  z-index: -10;
   position: absolute;
   top: 0px;
   left: 0;
@@ -91,12 +92,6 @@
     padding-left: 180px;
   }
 
-  /* .title,
-  .splash {
-    text-shadow: -1px -2px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff,
-      1px 1px 0 #fff;
-  } */
-
   .google-play-img {
     width: 304px;
     height: 72px;
@@ -104,6 +99,7 @@
   }
 
   .main-screen {
+    z-index: -10;
     top: -231px;
     left: 30px;
     width: 1693px;
