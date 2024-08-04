@@ -1,12 +1,18 @@
 .benefits {
   display: flex;
   flex-direction: column;
-  margin-bottom: 48px;
+  padding-bottom: 48px;
+  padding-top: 48px;
+  position: relative;
+}
+
+.text-content {
+  margin-bottom: 16px;
 }
 
 .bene-title {
   margin-bottom: 24px;
-  font-family: "SansitaOne", sans-serif;
+  font-family: 'SansitaOne', sans-serif;
   font-weight: 400;
   font-size: 32px;
   line-height: 1.5;
@@ -14,7 +20,7 @@
 }
 
 .bene-subtitle {
-  font-family: "Krub", sans-serif;
+  font-family: 'Krub', sans-serif;
   font-weight: 500;
   font-size: 18px;
   line-height: 1.78;
@@ -31,7 +37,7 @@
   background-size: contain;
   background-position: center;
   background-repeat: no-repeat;
-  font-family: "Krub", sans-serif;
+  font-family: 'Krub', sans-serif;
   font-weight: 700;
   font-size: 48px;
   line-height: 1.33;
@@ -41,25 +47,105 @@
 }
 
 .bene-item-desc {
-  font-family: "Krub", sans-serif;
+  font-family: 'Krub', sans-serif;
   font-weight: 700;
   font-size: 18px;
   line-height: 1.78;
   text-align: center;
 }
 
+.benefits-foam-bubble-first {
+  top: 30px;
+  right: 8px;
+  width: 49px;
+  height: 48px;
+}
+
+.benefits-foam-bubble-second {
+  top: 67px;
+  right: 34px;
+  width: 28px;
+  height: 27px;
+}
+
+.benefits-foam-bubble-third {
+  z-index: -10;
+  top: 107px;
+  right: 32px;
+  width: 18px;
+  height: 18px;
+}
+
+.benefits-foam-bubble-fourth {
+  z-index: -10;
+  top: 662px;
+  left: 6px;
+  width: 38px;
+  height: 37px;
+}
+
+.benefits-foam-bubble-fifth {
+  z-index: -10;
+  top: 707px;
+  left: 32px;
+  width: 24px;
+  height: 24px;
+}
+
+.benefits-foam-bubble-sixth {
+  z-index: -10;
+  top: 1048px;
+  right: -25px;
+  width: 52px;
+  height: 51px;
+}
+
+.benefits-foam-bubble-seventh {
+  z-index: -10;
+  top: 1010px;
+  right: 30px;
+  width: 26px;
+  height: 26px;
+}
+
+.benefits-foam-bubble-eighth {
+  z-index: -10;
+  top: 1036px;
+  right: 36px;
+  width: 26px;
+  height: 26px;
+}
+
+.benefits-foam-bubble-ninth {
+  z-index: -10;
+  bottom: 360px;
+  left: 4px;
+  width: 28px;
+  height: 29px;
+}
+
+.benefits-foam-bubble-tenth {
+  z-index: -10;
+  bottom: 267px;
+  left: 55px;
+  width: 28px;
+  height: 29px;
+}
+
 @media screen and (min-width: 1440px) {
   .benefits {
-    margin-top: 184px;
-    margin-bottom: 184px;
+    padding-top: 184px;
+    padding-bottom: 184px;
   }
 
   .text-content {
     margin-bottom: 64px;
+    padding-left: 116px;
+    padding-right: 116px;
   }
 
   .bene-title {
-    font-family: "SansitaOne", sans-serif;
+    font-family: 'SansitaOne', sans-serif;
     font-weight: 400;
     font-size: 72px;
     line-height: 1.22;
@@ -98,7 +184,7 @@
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    font-family: "Krub", sans-serif;
+    font-family: 'Krub', sans-serif;
     font-weight: 700;
     font-size: 72px;
     line-height: 1.22;
@@ -119,7 +205,7 @@
   }
 
   .bene-item-desc {
-    font-family: "Krub", sans-serif;
+    font-family: 'Krub', sans-serif;
     font-weight: 600;
     font-size: 24px;
     line-height: 200%;
@@ -130,6 +216,53 @@
   .star {
     width: 68px;
     height: 68px;
+  }
+
+  .benefits-transparent-bubble-first {
+    top: 294px;
+    left: -62px;
+    width: 123px;
+    height: 123px;
+  }
+
+  .benefits-transparent-bubble-second {
+    z-index: -10;
+    top: 376px;
+    left: 18px;
+    width: 54px;
+    height: 54px;
+  }
+
+  .benefits-foam-bubble-first {
+    top: 64px;
+    right: 290px;
+    width: 171px;
+    height: 166px;
+  }
+
+  .benefits-foam-bubble-second {
+    top: 195px;
+    right: 240px;
+    width: 83px;
+    height: 81px;
+  }
+
+  .benefits-foam-bubble-third {
+    z-index: -10;
+    top: 415px;
+    right: 326px;
+    width: 57px;
+    height: 56px;
+  }
+
+  .benefits-foam-bubble-fourth,
+  .benefits-foam-bubble-fifth,
+  .benefits-foam-bubble-sixth,
+  .benefits-foam-bubble-seventh,
+  .benefits-foam-bubble-eighth,
+  .benefits-foam-bubble-ninth,
+  .benefits-foam-bubble-tenth {
+    display: none;
   }
 }
 

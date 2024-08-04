@@ -1,5 +1,6 @@
 #reviews {
   padding-top: 48px;
+  position: relative;
 }
 
 .reviews-heading {
@@ -122,9 +123,32 @@
     font-size: 24px;
     line-height: 133%;
   }
-}
 
-/* @media screen and (min-width: 375px) {
-}
+  .reviews-transparent-bubble {
+    bottom: 55px;
+    left: -65px;
+    width: 155px;
+    height: 155px;
+  }
 
-@media screen and (min-width: 1440px) {} */
+  .reviews-foam-bubble-first {
+    top: 104px;
+    right: 115px;
+    width: 171px;
+    height: 166px;
+  }
+
+  .reviews-foam-bubble-second {
+    top: 48px;
+    right: 227px;
+    width: 83px;
+    height: 81px;
+  }
+
+  .reviews-foam-bubble-third {
+    top: 314px;
+    right: 227px;
+    width: 57px;
+    height: 56px;
+  }
+}

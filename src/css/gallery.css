@@ -1,8 +1,13 @@
 #gallery {
   padding-top: 48px;
   padding-bottom: 109px;
+  position: relative;
 }
 
+.gallery-img {
+  border: 4px solid #d088ee;
+  border-radius: 32px;
+}
 
 .gallery-heading {
   text-align: right;
@@ -22,8 +27,6 @@
 .gallery-items {
   padding: 0 55px;
 }
-
-
 
 .swiper-slide {
   text-align: center;
@@ -60,8 +63,39 @@
     line-height: 122%;
   }
 
-  .gallery-item {
-    border-radius: 32px;
-    border: 4px solid #f8cbff;
+  .gallery-transparent-bubble-first {
+    top: -7px;
+    left: 79px;
+    width: 85px;
+    height: 85px;
+  }
+
+  .gallery-transparent-bubble-second {
+    top: 84px;
+    left: 50px;
+    width: 29px;
+    height: 29px;
+  }
+
+  .gallery-foam-bubble-first {
+    top: 116px;
+    left: 107px;
+    width: 171px;
+    height: 166px;
+  }
+
+  .gallery-foam-bubble-second {
+    top: 242px;
+    left: 77px;
+    width: 83px;
+    height: 81px;
+  }
+
+  .gallery-foam-bubble-third {
+    z-index: -10;
+    top: 2px;
+    left: 92px;
+    width: 57px;
+    height: 56px;
   }
 }
