@@ -4,3 +4,13 @@
   line-height: 1.71;
   color: #48a7ff;
 }
+
+@media screen and (max-width) {
+  .rights {
+    color: #fff;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 1.71;
+  }
+
+}
