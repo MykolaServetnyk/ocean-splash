@@ -47,11 +47,6 @@ a {
   text-decoration: none;
 }
 
-div,
-li {
-  box-sizing: border-box;
-}
-
 button {
   padding: 0;
   background-color: transparent;

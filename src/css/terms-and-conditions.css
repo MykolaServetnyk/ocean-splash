@@ -1,6 +1,5 @@
 .terms {
-  padding: 32px 0 0 0;
-  margin: 0 16px;
+  padding: 32px 16px 32px 16px;
 }
 
 .main-title {
@@ -32,8 +31,7 @@
 
 @media screen and (min-width: 1440px) {
   .terms {
-    padding: 147px 0 0 0;
-    margin: 0 182px;
+    padding: 147px 182px 385px 182px;
   }
 
   .main-title {
@@ -58,9 +56,20 @@
     margin-bottom: 16px;
   }
 
+  .last-description {
+    margin-bottom: 48px;
+  }
+
   .term-corals {
-    top: none;
+    position: absolute;
     bottom: 226.3px;
+    left: 0;
+    width: 617px;
+    height: 664px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: left top;
+    background-image: url(../img/disclaimer/corals.png);
   }
 
   .terms-foam-bubble-first {
@@ -96,5 +105,89 @@
     left: 45px;
     width: 54px;
     height: 54px;
+  }
+
+  .terms-transparent-bubble-third {
+    top: 1118px;
+    left: -57px;
+    width: 152px;
+    height: 152px;
+  }
+
+  .terms-foam-bubble-fourth {
+    top: 1142px;
+    left: -34px;
+    width: 102px;
+    height: 105px;
+  }
+
+  .terms-foam-bubble-fifth {
+    top: 1298px;
+    left: 19px;
+    width: 43px;
+    height: 42px;
+  }
+
+  .terms-transparent-special-first {
+    top: 2151px;
+    right: 48px;
+    width: 40px;
+    height: 40px;
+  }
+
+  .terms-foam-bubble-sixth {
+    top: 2191px;
+    right: 48px;
+    width: 106px;
+    height: 104px;
+  }
+
+  .terms-foam-bubble-seventh {
+    top: 2258px;
+    right: 79px;
+    width: 76px;
+    height: 74px;
+  }
+
+  .terms-foam-bubble-eighth {
+    top: 2370px;
+    right: 56px;
+    width: 45px;
+    height: 44px;
+  }
+
+  .terms-foam-bubble-ninth {
+    bottom: 1139px;
+    left: -61px;
+    width: 146px;
+    height: 143px;
+  }
+
+  .terms-foam-bubble-tenth {
+    bottom: 364px;
+    right: 142px;
+    width: 121px;
+    height: 124px;
+  }
+
+  .terms-foam-bubble-eleventh {
+    bottom: 163px;
+    right: 200;
+    width: 68px;
+    height: 67px;
+  }
+
+  .terms-foam-bubble-twelfth {
+    bottom: 71px;
+    right: 210px;
+    width: 30px;
+    height: 31px;
+  }
+
+  .terms-transparent-special-first {
+    bottom: 1037px;
+    left: 7px;
+    width: 80px;
+    height: 80px;
   }
 }
