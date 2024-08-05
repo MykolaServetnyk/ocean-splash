@@ -71,6 +71,118 @@
   color: #19193d;
 }
 
+.reviews-semitransparent-bubble-first {
+  top: 113px;
+  right: 65px;
+  width: 30px;
+  height: 32px;
+}
+
+.reviews-semitransparent-bubble-second {
+  top: 152px;
+  right: 46px;
+  width: 30px;
+  height: 32px;
+}
+
+.reviews-foam-bubble-first {
+  top: 84px;
+  right: 42px;
+  width: 47px;
+  height: 44px;
+}
+
+.reviews-foam-bubble-second {
+  top: 984px;
+  right: 41px;
+  width: 38px;
+  height: 35px;
+}
+
+.reviews-foam-bubble-third {
+  top: 1023px;
+  right: 66px;
+  width: 34px;
+  height: 376px;
+}
+
+.reviews-foam-bubble-fourth {
+  top: 475px;
+  left: 21px;
+  width: 37px;
+  height: 40px;
+}
+
+.reviews-foam-bubble-fifth {
+  top: 515px;
+  left: 51px;
+  width: 33px;
+  height: 35px;
+}
+
+.reviews-foam-bubble-sixth {
+  top: 1042px;
+  right: 65px;
+  width: 28px;
+  height: 30px;
+}
+
+.reviews-foam-bubble-seventh {
+  top: 1074px;
+  right: 51px;
+  width: 17px;
+  height: 16px;
+}
+
+.reviews-foam-bubble-eighth {
+  bottom: 646px;
+  left: -24px;
+  width: 59px;
+  height: 63px;
+}
+
+.reviews-foam-bubble-ninth {
+  bottom: 615px;
+  left: 23px;
+  width: 31px;
+  height: 29px;
+}
+
+.reviews-foam-bubble-tenth {
+  bottom: 573px;
+  left: 10px;
+  width: 21px;
+  height: 23px;
+}
+
+.reviews-foam-bubble-eleventh {
+  bottom: 337px;
+  right: 10px;
+  width: 39px;
+  height: 37px;
+}
+
+.reviews-foam-bubble-twelfth {
+  bottom: 315px;
+  right: 20px;
+  width: 49px;
+  height: 52px;
+}
+
+.reviews-foam-bubble-thirdteenth {
+  bottom: 284px;
+  right: 13px;
+  width: 29px;
+  height: 31px;
+}
+
+.reviews-foam-bubble-fourteenth {
+  bottom: 163px;
+  right: 34px;
+  width: 19px;
+  height: 18px;
+}
+
 @media screen and (min-width: 1440px) {
   #reviews {
     padding-top: 184px;
@@ -150,5 +262,21 @@
     right: 227px;
     width: 57px;
     height: 56px;
+  }
+
+  .reviews-semitransparent-bubble-first,
+  .reviews-semitransparent-bubble-second,
+  .reviews-foam-bubble-fourth,
+  .reviews-foam-bubble-fifth,
+  .reviews-foam-bubble-sixth,
+  .reviews-foam-bubble-seventh,
+  .reviews-foam-bubble-eighth,
+  .reviews-foam-bubble-ninth,
+  .reviews-foam-bubble-tenth,
+  .reviews-foam-bubble-eleventh,
+  .reviews-foam-bubble-twelfth,
+  .reviews-foam-bubble-thirdteenth,
+  .reviews-foam-bubble-fourteenth {
+    display: none;
   }
 }
