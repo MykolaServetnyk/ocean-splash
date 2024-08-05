@@ -6,13 +6,14 @@ import 'swiper/css';
 (() => {
   const swiper = new Swiper('.swiper', {
     centeredSlides: true,
-    spaceBetween: 20,
     breakpoints: {
       320: {
+        spaceBetween: 0,
         slidesPerView: 1,
         centeredSlides: true,
       },
       1440: {
+        spaceBetween: -50,
         slidesPerView: 3,
       },
     },

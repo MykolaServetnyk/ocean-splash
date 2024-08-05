@@ -1,61 +1,100 @@
- .terms {
-   padding: 32px 0 0 0;
-   margin: 0 16px;
- }
+.terms {
+  padding: 32px 0 0 0;
+  margin: 0 16px;
+}
 
- .main-title {
-   font-family: "SansitaOne", sans-serif;
-   color: #48a7ff;
-   font-weight: 400;
-   font-size: 26px;
-   line-height: 1.85;
-   margin-bottom: 56px;
-   margin-bottom: 24px;
- }
+.main-title {
+  font-family: 'SansitaOne', sans-serif;
+  color: #48a7ff;
+  font-weight: 400;
+  font-size: 26px;
+  line-height: 1.85;
+  margin-bottom: 56px;
+  margin-bottom: 24px;
+}
 
- .subtitle {
-   font-family: "Krub", sans-serif;
-   color: #ffd53f;
-   font-weight: 700;
-   font-size: 20px;
-   line-height: 1.6;
-   margin-bottom: 16px;
- }
+.subtitle {
+  font-family: 'Krub', sans-serif;
+  color: #ffd53f;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 1.6;
+  margin-bottom: 16px;
+}
 
- .description {
-   font-weight: 600;
-   font-size: 14px;
-   line-height: 1.71;
-   color: #fff;
-   margin-bottom: 16px;
- }
+.description {
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 1.71;
+  color: #fff;
+  margin-bottom: 16px;
+}
 
+@media screen and (min-width: 1440px) {
+  .terms {
+    padding: 147px 0 0 0;
+    margin: 0 182px;
+  }
 
- @media screen and (min-width:1440px) {
-   .terms {
-     padding: 147px 0 0 0;
-     margin: 0 182px;
-   }
+  .main-title {
+    font-weight: 400;
+    font-size: 72px;
+    line-height: 1.22;
+    margin-bottom: 56px;
+  }
 
-   .main-title {
-     font-weight: 400;
-     font-size: 72px;
-     line-height: 1.22;
-     margin-bottom: 56px;
-   }
+  .subtitle {
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 1.5;
+    margin-bottom: 24px;
+  }
 
-   .subtitle {
-     font-weight: 600;
-     font-size: 32px;
-     line-height: 1.5;
-     margin-bottom: 24px;
-   }
+  .description {
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 1.71;
+    color: #fff;
+    margin-bottom: 16px;
+  }
 
-   .description {
-     font-weight: 500;
-     font-size: 28px;
-     line-height: 1.71;
-     color: #fff;
-     margin-bottom: 16px;
-   }
- }
+  .term-corals {
+    top: none;
+    bottom: 226.3px;
+  }
+
+  .terms-foam-bubble-first {
+    top: 222px;
+    right: 110px;
+    width: 106px;
+    height: 104px;
+  }
+
+  .terms-foam-bubble-second {
+    top: 324px;
+    right: 79px;
+    width: 79px;
+    height: 78px;
+  }
+
+  .terms-foam-bubble-third {
+    top: 423px;
+    right: 146px;
+    width: 33px;
+    height: 32px;
+  }
+
+  .terms-transparent-bubble-first {
+    top: 324px;
+    right: 119px;
+    width: 54px;
+    height: 54px;
+  }
+
+  .terms-transparent-bubble-second {
+    top: 1057px;
+    left: 45px;
+    width: 54px;
+    height: 54px;
+  }
+}

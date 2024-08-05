@@ -72,6 +72,14 @@
   background-image: url(../img/bubbles/bubble-semitransparent-single.png);
 }
 
+.transparent-special-single {
+  background-image: url(../img/bubbles/bubble-transparent-special-single.png);
+}
+
+.transparent-foamed-triple {
+  background-image: url(../img/bubbles/bubble-foamed-triple.png);
+}
+
 .bubble {
   position: absolute;
   background-repeat: no-repeat;
