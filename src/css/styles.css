@@ -68,6 +68,10 @@
   background-image: url(../img/bubbles/bubble-transparent-single.png);
 }
 
+.semitransparent-single {
+  background-image: url(../img/bubbles/bubble-semitransparent-single.png);
+}
+
 .bubble {
   position: absolute;
   background-repeat: no-repeat;

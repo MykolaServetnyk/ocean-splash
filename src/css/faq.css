@@ -3,13 +3,6 @@
   position: relative;
 }
 
-.faq-bubble {
-  position: absolute;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-}
-
 .faq-heading {
   font-family: 'SansitaOne';
   font-weight: 400;
@@ -73,6 +66,27 @@
   transform: rotate(180deg);
 }
 
+.faq-semitransparent-bubble-first {
+  top: 47px;
+  left: 38px;
+  width: 57px;
+  height: 61px;
+}
+
+.faq-semitransparent-bubble-second {
+  top: 79px;
+  left: 66px;
+  width: 39px;
+  height: 42px;
+}
+
+.faq-semitransparent-bubble-third {
+  top: 603.3px;
+  right: -29px;
+  width: 45px;
+  height: 48px;
+}
+
 @media screen and (min-width: 1440px) {
   #faq {
     padding-top: 184px;
@@ -118,7 +132,6 @@
     left: 32px;
     width: 109px;
     height: 109px;
-    background-image: url(../img/bubbles/bubble-transparent-single.png);
   }
 
   .faq-foam-bubble-first {
@@ -126,7 +139,6 @@
     left: 86px;
     width: 171px;
     height: 166px;
-    background-image: url(../img/bubbles/bubble-foam-single.png);
   }
 
   .faq-foam-bubble-second {
@@ -134,7 +146,6 @@
     left: 72px;
     width: 83px;
     height: 81px;
-    background-image: url(../img/bubbles/bubble-foam-single.png);
   }
 
   .faq-foam-bubble-third {
@@ -142,6 +153,11 @@
     left: 117px;
     width: 57px;
     height: 56px;
-    background-image: url(../img/bubbles/bubble-foam-single.png);
+  }
+
+  .faq-semitransparent-bubble-first,
+  .faq-semitransparent-bubble-second,
+  .faq-semitransparent-bubble-third {
+    display: none;
   }
 }
