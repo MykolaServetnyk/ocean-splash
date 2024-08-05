@@ -2,7 +2,7 @@
 
 ## Eng
 
-<h1>Ocean Splash</h1>
+<h1><a href="https://play.google.com/store/apps/details?id=com.cookapps.playgrounds.ff.oceanblast&hl=uk" target="_blank" rel="noopener noreferrer">Ocean Splash</a></h1>
 Here's the translation for the provided text:
 
 Dive into the cozy marine world of Ocean Splash and discover the best new free
@@ -19,7 +19,7 @@ this ocean world is YOU.
 
 ## Ua
 
-<h1>Ocean Splash</h1>
+<h1><a href="https://play.google.com/store/apps/details?id=com.cookapps.playgrounds.ff.oceanblast&hl=uk" target="_blank" rel="noopener noreferrer">Ocean Splash</a></h1>
 Пориньте в затишний морський світ Ocean Splash і відкрийте для себе найкращу нову безкоштовну гру-головоломку 3 в ряд !
 
 Глибоко під океанською водою лежить країна мрій із блискучими черепашками,
