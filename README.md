@@ -3,8 +3,6 @@
 ## Eng
 
 <h1><a href="https://play.google.com/store/apps/details?id=com.cookapps.playgrounds.ff.oceanblast&hl=uk" target="_blank" rel="noopener noreferrer">Ocean Splash</a></h1>
-Here's the translation for the provided text:
-
 Dive into the cozy marine world of Ocean Splash and discover the best new free
 match-3 puzzle game!
 

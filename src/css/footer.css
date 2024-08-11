@@ -1,14 +1,9 @@
 .footer {
-  position: relative;
-}
-
-.footer-content {
   height: 120px;
   position: relative;
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
   padding: 18px 12px 0;
   background-color: rgba(4, 10, 60, 0.45);
 }
@@ -16,7 +11,6 @@
 .footer-text {
   font-weight: 600;
   font-size: 12px;
-  line-height: 320%;
 }
 
 .footer-nav {
@@ -30,22 +24,10 @@
   gap: 5px;
 }
 
-.footer-nav-item::after {
-  content: '/';
-  font-weight: 600;
-  font-size: 10px;
-  line-height: 320%;
-  margin-left: 2.5px;
-}
-
-.footer-nav-item:last-child::after {
-  content: '';
-}
-
 .footer-link {
+  display: block;
   font-weight: 600;
   font-size: 10px;
-  line-height: 320%;
 }
 
 .seabottom {
@@ -70,9 +52,10 @@
 }
 
 @media screen and (min-width: 1440px) {
-  .footer-content {
+  .footer {
     height: 109px;
     padding: 32px 97px;
+    justify-content: center;
   }
 
   .footer-text {
@@ -90,11 +73,6 @@
   .footer-nav-list {
     display: flex;
     gap: 5px;
-  }
-
-  .footer-nav-item::after {
-    font-size: 16px;
-    line-height: 200%;
   }
 
   .footer-link {

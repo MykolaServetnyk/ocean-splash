@@ -1,5 +1,6 @@
 .terms {
   padding: 32px 16px 32px 16px;
+  position: relative;
 }
 
 .main-title {
@@ -26,7 +27,174 @@
   font-size: 14px;
   line-height: 1.71;
   color: #fff;
-  margin-bottom: 16px;
+  margin-bottom: 8px;
+}
+
+.last-description {
+  margin-bottom: 32px;
+}
+
+.terms-foam-bubble-first {
+  top: 76px;
+  right: 20px;
+  width: 26px;
+  height: 27px;
+}
+
+.terms-foam-bubble-second {
+  top: 89px;
+  right: -17px;
+  width: 49px;
+  height: 48px;
+}
+
+.terms-foam-bubble-third {
+  top: 140px;
+  right: 0;
+  width: 20px;
+  height: 20px;
+}
+
+.terms-foam-bubble-fourth {
+  top: 742px;
+  left: -27px;
+  width: 43px;
+  height: 42px;
+}
+
+.terms-foam-bubble-fifth {
+  top: 1119px;
+  right: -27px;
+  width: 54px;
+  height: 53px;
+}
+
+.terms-foam-bubble-sixth {
+  z-index: -1;
+  top: 1625px;
+  right: 45px;
+  width: 16px;
+  height: 16px;
+}
+
+.terms-semitransparent {
+  z-index: -1;
+  left: 106px;
+  bottom: 1696px;
+  width: 25px;
+  height: 25px;
+}
+
+.terms-foam-bubble-seventh {
+  z-index: -1;
+  top: 1640px;
+  right: 61px;
+  width: 25px;
+  height: 24px;
+}
+
+.terms-foam-bubble-eighth {
+  z-index: -1;
+  bottom: 1711px;
+  left: 77px;
+  width: 42px;
+  height: 42px;
+}
+
+.terms-foam-bubble-ninth {
+  z-index: -1;
+  bottom: 1667px;
+  left: 92px;
+  width: 13px;
+  height: 13px;
+}
+
+.terms-foam-bubble-tenth {
+  z-index: -1;
+  bottom: 1326px;
+  right: 76px;
+  width: 14px;
+  height: 14px;
+}
+
+.terms-foam-bubble-eleventh {
+  z-index: -1;
+  bottom: 1272px;
+  right: 35px;
+  width: 42px;
+  height: 41px;
+}
+
+.terms-foam-bubble-twelfth {
+  z-index: -1;
+  bottom: 1253px;
+  right: 61px;
+  width: 29px;
+  height: 28px;
+}
+
+.terms-foam-bubble-thirteenth {
+  z-index: -1;
+  bottom: 744px;
+  left: 94px;
+  width: 24px;
+  height: 23px;
+}
+
+.terms-foam-bubble-fourteenth {
+  bottom: 303px;
+  right: 42px;
+  width: 38px;
+  height: 37px;
+}
+
+.terms-foam-bubble-fifteenth {
+  bottom: 291px;
+  right: 73px;
+  width: 26px;
+  height: 25px;
+}
+
+.terms-foam-bubble-sixteenth {
+  bottom: 187px;
+  right: 44px;
+  width: 17px;
+  height: 17px;
+}
+
+.terms-foam-bubble-seventeenth {
+  bottom: -3px;
+  left: 29px;
+  width: 38px;
+  height: 37px;
+}
+
+.terms-foam-bubble-eighteenth {
+  bottom: -26px;
+  left: 48px;
+  width: 27px;
+  height: 26px;
+}
+
+.terms-foam-bubble-nineteenth {
+  bottom: -72px;
+  left: 40px;
+  width: 17px;
+  height: 17px;
+}
+
+.terms-foam-bubble-twentieth {
+  bottom: -80px;
+  right: 44px;
+  width: 12px;
+  height: 12px;
+}
+
+.terms-foam-bubble-twenty-first {
+  bottom: -95px;
+  right: 60px;
+  width: 12px;
+  height: 12px;
 }
 
 @media screen and (min-width: 1440px) {
@@ -62,7 +230,7 @@
 
   .term-corals {
     position: absolute;
-    bottom: 226.3px;
+    bottom: 117.3px;
     left: 0;
     width: 617px;
     height: 664px;
@@ -73,121 +241,143 @@
   }
 
   .terms-foam-bubble-first {
-    top: 222px;
+    top: 78px;
     right: 110px;
     width: 106px;
     height: 104px;
   }
 
   .terms-foam-bubble-second {
-    top: 324px;
+    top: 180px;
     right: 79px;
     width: 79px;
     height: 78px;
   }
 
   .terms-foam-bubble-third {
-    top: 423px;
+    top: 279px;
     right: 146px;
     width: 33px;
     height: 32px;
   }
 
   .terms-transparent-bubble-first {
-    top: 324px;
+    top: 180px;
     right: 119px;
     width: 54px;
     height: 54px;
   }
 
   .terms-transparent-bubble-second {
-    top: 1057px;
+    top: 913px;
     left: 45px;
     width: 54px;
     height: 54px;
   }
 
   .terms-transparent-bubble-third {
-    top: 1118px;
+    top: 974px;
     left: -57px;
     width: 152px;
     height: 152px;
   }
 
   .terms-foam-bubble-fourth {
-    top: 1142px;
+    top: 998px;
     left: -34px;
     width: 102px;
     height: 105px;
   }
 
   .terms-foam-bubble-fifth {
-    top: 1298px;
+    top: 1154px;
+    right: none;
     left: 19px;
     width: 43px;
     height: 42px;
   }
 
   .terms-transparent-special-first {
-    top: 2151px;
+    top: 2007px;
     right: 48px;
     width: 40px;
     height: 40px;
   }
 
   .terms-foam-bubble-sixth {
-    top: 2191px;
+    top: 2047px;
     right: 48px;
     width: 106px;
     height: 104px;
   }
 
   .terms-foam-bubble-seventh {
-    top: 2258px;
+    top: 2114px;
     right: 79px;
     width: 76px;
     height: 74px;
   }
 
   .terms-foam-bubble-eighth {
-    top: 2370px;
+    top: 2226px;
+    left: none;
     right: 56px;
     width: 45px;
     height: 44px;
   }
 
   .terms-foam-bubble-ninth {
-    bottom: 1139px;
+    bottom: 1030px;
     left: -61px;
     width: 146px;
     height: 143px;
   }
 
   .terms-foam-bubble-tenth {
-    bottom: 364px;
+    bottom: 255px;
     right: 142px;
     width: 121px;
     height: 124px;
   }
 
   .terms-foam-bubble-eleventh {
-    bottom: 163px;
-    right: 200;
+    bottom: 53.5px;
+    right: 200px;
     width: 68px;
     height: 67px;
   }
 
   .terms-foam-bubble-twelfth {
-    bottom: 71px;
+    bottom: -36.8px;
     right: 210px;
     width: 30px;
     height: 31px;
   }
 
-  .terms-transparent-special-first {
-    bottom: 1037px;
+  .terms-transparent-special-second {
+    bottom: 928px;
     left: 7px;
     width: 80px;
     height: 80px;
+  }
+
+  .terms-triple {
+    bottom: 132px;
+    right: 202px;
+    width: 121px;
+    height: 121px;
+  }
+
+  .terms-foam-bubble-thirteenth,
+  .terms-foam-bubble-fourteenth,
+  .terms-foam-bubble-fifteenth,
+  .terms-foam-bubble-sixteenth,
+  .terms-foam-bubble-seventeenth,
+  .terms-foam-bubble-eighteenth,
+  .terms-foam-bubble-nineteenth,
+  .terms-foam-bubble-twentieth,
+  .terms-foam-bubble-twenty-first,
+  .terms-semitransparent {
+    display: none;
   }
 }
